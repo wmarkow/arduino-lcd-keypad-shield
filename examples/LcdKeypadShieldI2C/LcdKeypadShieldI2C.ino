@@ -23,32 +23,32 @@ void loop() {
 	{
 		case BUTTON_RIGHT:
 		{
-			lcd.print("RIGHT ");
+			lcd.print(F("RIGHT "));
 			break;
 		}
 		case BUTTON_LEFT:
 		{
-			lcd.print("LEFT  ");
+			lcd.print(F("LEFT  "));
 			break;
 		}
 		case BUTTON_UP:
 		{
-			lcd.print("UP    ");
+			lcd.print(F("UP    "));
 			break;
 		}
 		case BUTTON_DOWN:
 		{
-			lcd.print("DOWN  ");
+			lcd.print(F("DOWN  "));
 	    	break;
 		}
 		case BUTTON_SELECT:
 		{
-			lcd.print("SELECT");
+			lcd.print(F("SELECT"));
 			break;
 		}
 		case BUTTON_NONE:
 		{
-			lcd.print("NONE   ");
+			lcd.print(F("NONE   "));
 			break;
 		}
 	}

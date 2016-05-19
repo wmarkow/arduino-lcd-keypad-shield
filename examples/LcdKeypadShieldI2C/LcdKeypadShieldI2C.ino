@@ -4,7 +4,6 @@ LCDKeypadShield_I2C lcd(0x3F,16,2);
 
 void setup() {
   lcd.init();
-  lcd.init();
   lcd.backlight();
 
   // Print a message to the LCD.
